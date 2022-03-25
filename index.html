@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<title>Document</title>
+</head>
+<body>
+
+<img src="assets/img/sprite.svg" style="position:absolute;left:-999999999999px;top:-9999999999px;overflow:hidden;width:0;height:0">
+
+<div class="top_main_menu">
+	<div class="content">
+		<button class="btn-close"></button>
+
+		<input type="radio" name="top_main_menu" id="top_main_menu_1" checked>
+		<input type="radio" name="top_main_menu" id="top_main_menu_2">
+		<input type="radio" name="top_main_menu" id="top_main_menu_3">
+		<input type="radio" name="top_main_menu" id="top_main_menu_4">
+		<input type="radio" name="top_main_menu" id="top_main_menu_5">
+		<input type="radio" name="top_main_menu" id="top_main_menu_6">
+
+		<div class="tab_labels">
+			<label for="top_main_menu_1">Программирование</label>
+			<label for="top_main_menu_2">Управление</label>
+			<label for="top_main_menu_3">Дизайн</label>
+			<label for="top_main_menu_4">Маркетинг</label>
+			<label for="top_main_menu_5">Аналитика</label>
+			<label for="top_main_menu_6">Создание контента</label>
+		</div>
+
+		<div class="tab_wrappers">
+			<ul class="top_main_menu_1">
+				<li><a href="">Все курсы по программированию</a></li>
+				<li><a href="">Python-разработка</a></li>
+				<li><a href="">Web-разработка</a></li>
+				<li><a href="">Мобильная разработка</a></li>
+				<li><a href="">JavaScript-разработка</a></li>
+				<li><a href="">Разработка игр</a></li>
+				<li><a href="">Java-разработка</a></li>
+				<li><a href="">Создание сайтов</a></li>
+				<li><a href="">Системное администрирование</a></li>
+				<li><a href="">Управление разработкой и IT</a></li>
+				<li><a href="">QA-тестирование</a></li>
+				<li><a href="">Android-разработка</a></li>
+				<li><a href="">Frontend-разработка</a></li>
+				<li><a href="">Разработка игр на Unity</a></li>
+				<li><a href="">DevOps</a></li>
+				<li><a href="">PHP-разработка</a></li>
+				<li><a href="">Верстка на HTML/CSS</a></li>
+				<li><a href="">Разработка на C#</a></li>
+				<li><a href="">IOS-разработка</a></li>
+				<li><a href="">Разработка на C++</a></li>
+				<li><a href="">Разработка игр на Unreal Engine</a></li>
+				<li><a href="">Разработка на Kotlin</a></li>
+				<li><a href="">Разработка на Swift</a></li>
+				<li><a href="">Информационная безопасность</a></li>
+				<li><a href="">Golang-разработка</a></li>
+				<li><a href="">1C-разработка</a></li>
+				<li><a href="">Фреймворк Laravel</a></li>
+				<li><a href="">VR/AR разработка</a></li>
+			</ul>
+			<ul class="top_main_menu_2">
+				<li><a href="">Все курсы по управлению</a></li>
+				<li><a href="">Product-менеджмент</a></li>
+				<li><a href="">Управление бизнесом</a></li>
+				<li><a href="">HR и управление персоналом</a></li>
+				<li><a href="">Финансовая аналитика</a></li>
+				<li><a href="">Руководство маркетингом</a></li>
+				<li><a href="">Финансы для руководителей</a></li>
+				<li><a href="">Project-менеджмент</a></li>
+				<li><a href="">Управление продажами</a></li>
+				<li><a href="">Управление разработкой и IT</a></li>
+				<li><a href="">Запуск стартапов</a></li>
+				<li><a href="">Работа с Excel и Google таблицами</a></li>
+				<li><a href="">Аналитика для руководителей</a></li>
+				<li><a href="">Деловые коммуникации</a></li>
+				<li><a href="">Работа с презентациями</a></li>
+				<li><a href="">Управление образовательными проектами</a></li>
+				<li><a href="">Юридические аспекты бизнеса</a></li>
+				<li><a href="">Управление в e-commerce</a></li>
+				<li><a href="">Управление в SMM</a></li>
+				<li><a href="">Управление в дизайне</a></li>
+				<li><a href="">Продюсирование</a></li>
+				<li><a href="">Менеджмент в индустрии красоты</a></li>
+				<li><a href="">IT-рекрутмент</a></li>
+				<li><a href="">Бухгалтерия</a></li>
+			</ul>
+			<ul class="top_main_menu_3">
+				<li><a href="">Все курсы по дизайну</a></li>
+				<li><a href="">Web-дизайн</a></li>
+				<li><a href="">Графический дизайн</a></li>
+				<li><a href="">3D-моделирование</a></li>
+				<li><a href="">Отрисовка иллюстраций</a></li>
+				<li><a href="">UX/UI дизайн</a></li>
+				<li><a href="">Дизайн интерьеров</a></li>
+				<li><a href="">Геймдизайн</a></li>
+				<li><a href="">Создание и монтаж видео</a></li>
+				<li><a href="">Adobe Photoshop</a></li>
+				<li><a href="">Motion-дизайн</a></li>
+				<li><a href="">Ландшафтный дизайн</a></li>
+				<li><a href="">Скетчинг</a></li>
+				<li><a href="">3D-анимация</a></li>
+				<li><a href="">3D MAX</a></li>
+				<li><a href="">Дизайн мобильных приложений</a></li>
+				<li><a href="">Figma</a></li>
+				<li><a href="">Создание лендингов</a></li>
+				<li><a href="">Типографика</a></li>
+				<li><a href="">Adobe Illustrator</a></li>
+				<li><a href="">Adobe After Effects</a></li>
+				<li><a href="">Управление в дизайне</a></li>
+				<li><a href="">AutoCAD</a></li>
+			</ul>
+			<ul class="top_main_menu_4">
+				<li><a href="">Все курсы по маркетингу</a></li>
+				<li><a href="">SMM-продвижение</a></li>
+				<li><a href="">Интернет-маркетинг</a></li>
+				<li><a href="">Web-аналитика</a></li>
+				<li><a href="">Руководство маркетингом</a></li>
+				<li><a href="">Копирайтинг</a></li>
+				<li><a href="">Контент-маркетинг</a></li>
+				<li><a href="">Маркетинговая аналитика</a></li>
+				<li><a href="">Таргетированная реклама</a></li>
+				<li><a href="">SEO-продвижение</a></li>
+				<li><a href="">Бренд-менеджмент</a></li>
+				<li><a href="">Продвижение в Instagram</a></li>
+				<li><a href="">Контекстная реклама</a></li>
+				<li><a href="">Продвижение видео</a></li>
+				<li><a href="">PR-менеджмент</a></li>
+				<li><a href="">SERM и репутация</a></li>
+				<li><a href="">Управление в SMM</a></li>
+				<li><a href="">CRM и email-маркетинг</a></li>
+				<li><a href="">Создание лендингов</a></li>
+				<li><a href="">Маркетинг мобильных приложений</a></li>
+				<li><a href="">Мессенджер-маркетинг и чат-боты</a></li>
+				<li><a href="">Реклама у блогеров</a></li>
+			</ul>
+			<ul class="top_main_menu_5">
+				<li><a href="">Все курсы по аналитике</a></li>
+				<li><a href="">Все курсы по Big Data</a></li>
+				<li><a href="">Data Science</a></li>
+				<li><a href="">Бизнес-аналитика</a></li>
+				<li><a href="">Финансовая аналитика</a></li>
+				<li><a href="">Web-аналитика</a></li>
+				<li><a href="">Маркетинговая аналитика</a></li>
+				<li><a href="">Продуктовая аналитика</a></li>
+				<li><a href="">Системная аналитика</a></li>
+				<li><a href="">Работа с Excel и Google таблицами</a></li>
+				<li><a href="">Машинное обучение</a></li>
+				<li><a href="">Аналитика для руководителей</a></li>
+				<li><a href="">Работа с презентациями</a></li>
+				<li><a href="">SQL для анализа данных</a></li>
+				<li><a href="">Аналитика на Python</a></li>
+				<li><a href="">Аналитика на Power BI</a></li>
+				<li><a href="">Нейронные сети</a></li>
+				<li><a href="">Математика для Data Science</a></li>
+				<li><a href="">Deep Learning</a></li>
+				<li><a href="">Data Engineering</a></li>
+				<li><a href="">Аналитика на Tableau</a></li>
+				<li><a href="">Аналитика на R</a></li>
+			</ul>
+			<ul class="top_main_menu_6">
+				<li><a href="">Все курсы по созданию контента</a></li>
+				<li><a href="">Отрисовка иллюстраций</a></li>
+				<li><a href="">Копирайтинг</a></li>
+				<li><a href="">Контент-маркетинг</a></li>
+				<li><a href="">Создание и монтаж видео</a></li>
+				<li><a href="">Sound-дизайн и звукорежиссура</a></li>
+				<li><a href="">Съемка и обработка фото</a></li>
+				<li><a href="">Motion-дизайн</a></li>
+				<li><a href="">3D-анимация</a></li>
+				<li><a href="">Редактура текстов</a></li>
+				<li><a href="">Блогерство</a></li>
+				<li><a href="">Сторителлинг</a></li>
+				<li><a href="">Создание электронной музыки</a></li>
+				<li><a href="">Cinema 4D</a></li>
+				<li><a href="">Adobe After Effects</a></li>
+				<li><a href="">Ableton Live</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="top_main_menu_mobile">
+	<div class="content">
+		<button class="btn-close"></button>
+
+		<ul>
+			<li>
+				<button class="border">
+					Все курсы
+					
+					<svg>
+						<use xlink:href="assets/img/sprite.svg#arrow"></use>
+					</svg>
+				</button>
+				<ul>
+					<li><a href="">Программирование</a></li>
+					<li><a href="">Управление</a></li>
+					<li><a href="">Дизайн</a></li>
+					<li><a href="">Маркетинг</a></li>
+					<li><a href="">Аналитика</a></li>
+					<li><a href="">Создание контента</a></li>
+				</ul>
+			</li>
+			<li><a href="">Отзывы о школах</a></li>
+			<li><a href="">Акции</a></li>
+		</ul>
+	</div>
+</div>
+
+<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<a href="index.html" class="header__logo">
+				gde<span>-kurs</span>
+			</a>
+			<p>Агрегатор онлайн-курсов</p>
+			<ul class="menu__list">
+				<li>
+					<button class="border">
+						Все курсы
+						
+						<svg>
+							<use xlink:href="assets/img/sprite.svg#arrow"></use>
+						</svg>
+					</button>
+				</li>
+				<li>
+					<a class="nav__link none" href="reviews.html">Отзывы о школах</a>
+				</li>
+				<li>
+					<a class="nav__link none" href="">Акции</a>
+				</li>
+				<form action="/gde-kurs/" id="main-search">
+					<input type="text" id="s" name="s">
+
+					<button class="search" type="submit">
+						<svg>
+							<use xlink:href="assets/img/sprite.svg#search__icons"></use>
+						</svg>
+					</button>
+
+					<button class="burger" type="button"></button>
+
+					<div class="result">
+						<p class="title">Курсы</p>
+						<ul>
+							<li><a href="">пример ссылки №1</a></li>
+							<li><a href="">пример ссылки №2</a></li>
+							<li><a href="">пример ссылки №3</a></li>
+						</ul>
+						<p class="title">Школы</p>
+						<ul>
+							<li><a href="">пример ссылки №1</a></li>
+							<li><a href="">пример ссылки №2</a></li>
+							<li><a href="">пример ссылки №3</a></li>
+						</ul>
+						<p class="title">Категория</p>
+						<ul>
+							<li><a href="">пример ссылки №1</a></li>
+							<li><a href="">пример ссылки №2</a></li>
+							<li><a href="">пример ссылки №3</a></li>
+						</ul>
+					</div>
+				</form>
+			</ul>
+		</div>
+	</div>
+</header>
+<div class="intro">
+	<div class="container">
+		<img class="girls" src="assets/img/intro-fon.png">
+		<div class="intro__title">
+			<h1>
+				Мы анализируем весь рынок онлайн-образования, чтоб подсказать самое <span class="logo__color">лучшее</span>
+			</h1>
+			<p>Мы собрали все онлайн-курсы по digital и IT профессиям. Читайте отзывы о школах, сравнивайте и выбирайте то, что подходит именно вам!</p>
+		</div>
+	</div>
+</div>
+<section class="cards">
+	<div class="container">
+		<h2>Направления курсов</h2>
+		<div class="cards__item">
+			<div class="cards__item-block">
+				<img class="img__cards" src="assets/img/icons.svg">
+				<div class="cards__item-block1">
+					<a href="" class="title">Аналитика</a>
+					<nav>
+						<ul>
+							<li>
+								<a class="nav__link-item" href="">Бизнес-аналитика</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Big Data</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Excel и Google-таблицы </a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Искусственный интеллект </a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Системная аналитика</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="nav__link-all" href="">Все курсы</a>
+				</div>
+			</div>
+			<div class="cards__item-block">
+				<img class="img__cards" src="assets/img/icons.svg">
+				<div class="cards__item-block1">
+					<a href="" class="title">Дизайн</a>
+					<nav class="card__nav">
+						<ul>
+							<li>
+								<a class="nav__link-item" href="">Web-дизайн</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Геймдизайн</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">UX/UI-дизайн</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Графический дизайн</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Дизайн интерьеров</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="nav__link-all" href="">Все курсы</a>
+				</div>
+			</div>
+			<div class="cards__item-block">
+				<img class="img__cards" src="assets/img/icons.svg">
+				<div class="cards__item-block1">
+					<a href="" class="title">Маркетинг</a>
+					<nav class="card__nav">
+						<ul>
+							<li>
+								<a class="nav__link-item" href="">CRM и email-маркетинг</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">SEO-продвижение</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">SMM-продвижение</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Интернет-маркетинг</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Контекстная реклама</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="nav__link-all" href="">Все курсы</a>
+				</div>
+			</div>
+			<div class="cards__item-block">
+				<img class="img__cards" src="assets/img/icons.svg">
+				<div class="cards__item-block1">
+					<a href="" class="title">Создание Контента</a>
+					<nav class="card__nav">
+						<ul>
+							<li>
+								<a class="nav__link-item" href="">Копирайтинг</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Отрисовка иллюстраций</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Контент-маркетинг</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Создание и монтаж видео</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Sound-дизайн</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="nav__link-all" href="">Все курсы</a>
+				</div>
+			</div>
+			<div class="cards__item-block">
+				<img class="img__cards" src="assets/img/icons.svg">
+				<div class="cards__item-block1">
+					<a href="" class="title">Управление</a>
+					<nav class="card__nav">
+						<ul>
+							<li>
+								<a class="nav__link-item" href="">Product-менеджмент</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Управление бизнесом</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">HR и управление персоналом</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Финансовая аналитика</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Руководство маркетингом</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="nav__link-all" href="">Все курсы</a>
+				</div>
+			</div>
+			<div class="cards__item-block">
+				<img class="img__cards" src="assets/img/icons.svg">
+				<div class="cards__item-block1">
+					<a href="" class="title">Программирование</a>
+					<nav class="card__nav">
+						<ul>
+							<li>
+								<a class="nav__link-item" href="">Python-разработка</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Web-разработка</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Мобильная разработка</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">JavaScript-разработка</a>
+							</li>
+							<li>
+								<a class="nav__link-item" href="">Java-разработка</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="nav__link-all" href="">Все курсы</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="project">
+	<div class="container">
+		<h2>О проекте</h2>
+		<div class="project__info">
+			<p>Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, на название, не имеет никакого отношения к обитателям водоемов. Используется он веб-дизайнерами для вставки на интернет-страницы и демонстрации внешнего вида контента, просмотра шрифтов, абзацев. Так как цель применения такого текста исключительно демонстрационная, то и смысловую нагрузку ему нести совсем необязательно. Более того, нечитабельность текста сыграет на руку при оценке качества.</p>
+			<p>Самым известным «рыбным» текстом является знаменитый Lorem ipsum. Считается, что впервые его применили в книгопечатании еще в XVI веке. Своим появлением Lorem ipsum обязан древнеримскому философу Цицерону, ведь именно из его трактата «О пределах добра и зла» средневековый книгопечатник вырвал отдельные фразы и слова, получив текст-«рыбу», широко используемый и по сей день. Конечно, возникают некоторые вопросы, связанные с использованием Lorem ipsum на сайтах и проектах, ориентированных на кириллический контент – написание символов.</p>
+		</div>
+	</div>
+</section>
+<footer class="footer">
+	<div class="container">
+		<div class="footer__items">
+			<div class="footer__item">
+				<a href="index.html" class="footer__logo">
+					gde<span>-kurs</span>
+				</a>
+				<p>Следите за нами в соцсетях</p>
+				<div class="social__icon">
+					<a href="" class="facebook">
+						<svg>
+							<use xlink:href="assets/img/sprite.svg#facebook"></use>
+						</svg>
+					</a>
+					<a href="" class="vk">
+						<svg>
+							<use xlink:href="assets/img/sprite.svg#vk"></use>
+						</svg>
+					</a>
+					<a href="" class="insta">
+						<svg>
+							<use xlink:href="assets/img/sprite.svg#insta"></use>
+						</svg>
+					</a>
+				</div>
+				<div class="footer__info-inner">
+					<p>Gde-kurs © 2021</p>
+					<p>Все права защищены</p>
+				</div>
+			</div>
+			<div class="footer__item">
+				<h5 class="footer__item-title">Курсы</h5>
+				<ul class="footer__item-list">
+					<li>
+						<a href="">Дизайн</a>
+					</li>
+					<li>
+						<a href="">Маркетинг</a>
+					</li>
+					<li>
+						<a href="">Программирование</a>
+					</li>
+					<li>
+						<a href="">Бизнес и управление</a>
+					</li>
+					<li>
+						<a href="">Аналитика</a>
+					</li>
+					<li>
+						<a href="">Видео и аудио</a>
+					</li>
+					<li>
+						<a href="">Прикладное искусство</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__item">
+				<h5 class="footer__item-title">Блог</h5>
+				<ul class="footer__item-list">
+					<li>
+						<a href="">Профессии в Digital</a>
+					</li>
+					<li>
+						<a href="">Подборки курсов</a>
+					</li>
+					<li>
+						<a href="">Направления в Digital</a>
+					</li>
+					<li>
+						<a href="">Обзор инструментов и сервисов</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__item">
+				<h5 class="footer__item-title">Информация</h5>
+				<ul class="footer__item-list">
+					<li>
+						<a href="">Контакты</a>
+					</li>
+					<li>
+						<a href="">Отзывы о школах</a>
+					</li>
+					<li>
+						<a href="">Наша команда</a>
+					</li>
+					<li>
+						<a href="">Вакансии</a>
+					</li>
+					<li>
+						<a href="">Политика конфиденциальности</a>
+					</li>
+					<li>
+						<a href="">Пользовательское соглашение</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
